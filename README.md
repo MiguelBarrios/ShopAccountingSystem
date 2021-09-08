@@ -1,2 +1,2 @@
 # ShopSccountingSystem
-DBMS System for a shop
+relational database for a generic shop
