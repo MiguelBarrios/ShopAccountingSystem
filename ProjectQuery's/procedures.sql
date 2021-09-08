@@ -275,10 +275,7 @@ BEGIN
     where job_num = @job_num
 END
 
-/********************Query 8 procedures******************/
-/********************Query 9 procedures******************/
-/********************Query 10 procedures******************/
-/********************Query 11 procedures******************/
+
 /********************Query 12 procedures******************/
 GO
 CREATE PROCEDURE retrieveJobinRangeAndDept
@@ -294,10 +291,6 @@ BEGIN
                             where dept_number = @dept_number)
     
 END
-
-
-
-
 
 /********************Query 13 procedures******************/
 GO 
@@ -339,9 +332,3 @@ BEGIN
     set color = @color
     where job_num = @job_num
 END
- 
-
-
-
- -----Might have done forgin key constrains wrong
- ---check to see if the fk constraint goes in the reference table or the referencing table
